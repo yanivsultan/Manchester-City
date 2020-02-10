@@ -2,20 +2,21 @@ import React, { Component } from "react";
 import Stripes from "../../../Resources/images/stripes.png";
 import { Tag } from "../../ui/misc";
 import Reveal from "react-reveal/Reveal";
-import HomeCards from './Cards'
-
+import HomeCards from "./Cards";
 
 class MeetPlayers extends Component {
   state = {
-    show:false
+    show: false
   };
-
 
   render() {
     return (
-      <Reveal fraction={0.7} onReveal={()=>{
-          this.setState({show: true})
-      }}>
+      <Reveal
+        fraction={0.7}
+        onReveal={() => {
+          this.setState({ show: true });
+        }}
+      >
         <div
           className="home_meetplayers"
           style={{ background: `#ffffff url(${Stripes})` }}
@@ -23,8 +24,8 @@ class MeetPlayers extends Component {
           <div className="container">
             <div className="home_meetplayers_wrapper">
               <div className="home_card_wrapper">
-                  <HomeCards />
-                  </div>
+                <HomeCards />
+              </div>
               <div className="home_text_wrapper">
                 <div>
                   <Tag
