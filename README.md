@@ -7,9 +7,9 @@ Outsource packages that used in the project - react-router-dom, react-transition
 
 ### `Visit The Website`
 
-Before visiting the website please notice that there is a admin section with dashboard and there is data that will be displayd only for users with admin premissions so please connect to the admin user with the next details:
-email: demo@demo.com
-password:123456
+Before visiting the website please notice that there is a admin section with dashboard and there is data that will be displayd only for users with admin premissions so please connect to the admin user with the next details: </br>
+email: demo@demo.com </br>
+password:123456 </br>
 
 LINK:
 https://m-city-77035.firebaseapp.com/
