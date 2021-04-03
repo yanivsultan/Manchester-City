@@ -1,4 +1,4 @@
-This is a Very nice Front-End Project - A website for Manchester City (football team).
+A Full-Stack Project - A website for Manchester City (football team).
 The project has been built with firebase realtime DB.
 
 Link to the app: https://m-city-77035.firebaseapp.com/
