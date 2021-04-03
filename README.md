@@ -1,52 +1,32 @@
+This is a Very nice Front-End Project - A website for Manchester City (football team).
+The project has been built with firebase realtime DB.
+
+Link to the app: https://m-city-77035.firebaseapp.com/
+
+The main page have a nice section intro designed, matches section, "meet the players" section (directed to the team page), and promotional advertising section.
+"The Team" page is where you can see the team current lineup.
+Matches page is where you can see the season matches, get updated with the scoreboard and sort the games by different parameters.
+
+There is admin panel where you can: view and edit matches data, view and edit players data, add matches and add players.
+Admin panel details:
+Email: Demo@demo.com
+Password: 123456
+
+Images:
+Main page: 
+<img width="1440" alt="Screen Shot 2021-04-04 at 2 39 25" src="https://user-images.githubusercontent.com/55081339/113494321-f006bc80-94ef-11eb-923b-ca37fe4df2d9.png">
+<img width="1440" alt="Screen Shot 2021-04-04 at 2 39 30" src="https://user-images.githubusercontent.com/55081339/113494328-feed6f00-94ef-11eb-98c4-b65b6a5d2f41.png">
+<img width="1440" alt="Screen Shot 2021-04-04 at 2 39 37" src="https://user-images.githubusercontent.com/55081339/113494346-0f9de500-94f0-11eb-8550-675a4f0dad26.png">
+<img width="1440" alt="Screen Shot 2021-04-04 at 2 39 42" src="https://user-images.githubusercontent.com/55081339/113494347-12003f00-94f0-11eb-9671-e0a70e53341e.png">
 
 
-## Manchester United Football team website.
-Built with React & Firebase DB, designed with material UI.
-Outsource packages that used in the project - react-router-dom, react-transitions,react-reveal, race-move, d3-ease, firebase.
+Players page:
+<img width="1440" alt="Screen Shot 2021-04-04 at 2 39 56" src="https://user-images.githubusercontent.com/55081339/113494350-19274d00-94f0-11eb-8e23-46a253c66d3f.png">
 
-### `Visit The Website`
-Before visiting the website please notice that there is a admin section with dashboard and there is data that will be displayd only for users with admin premissions so please connect to the admin user with the next details: </br>
-email: demo@demo.com </br>
-password:123456 </br>
-### `Link`
-https://m-city-77035.firebaseapp.com/
+Matches page:
+<img width="1440" alt="Screen Shot 2021-04-04 at 2 40 01" src="https://user-images.githubusercontent.com/55081339/113494354-1fb5c480-94f0-11eb-8d36-60539b2beea6.png">
 
-
-## Screenshots
-### Home
-Contains a matches section that displaying the last games of the team.
-
-"Meet the players" section that shows some players of the team and have a button that takes to user to see all the team players.
-
-"Win a jersy" section is a promotion section where user can enter his e-mail and get a raffle ticket that he could win a jersey.
-
-
-### The Team
-This page is displaying all of the team players according to their positions, every player displayed in card with his full name, number and picture.
-
-
-### Matches
-This page displaying all the matches that the team is played \ will play. you can sort the matches according to "Played / Not playd" or "Win/ Lose/ Draw" games. This page is displaying a league table, this league table is hard coded and does not connected to the DB yet.)
-
-
-### Login
-Login checks if the user is registered as admin in the Firebase DB, if he is so this user get access to the admin dashboard.
-(used firebase Authentication).
-
-
-### Admin dashboard - Matches
-All the matches displayed in here, the admin can click on match and edit his details.
-
-
-### Admin dashboard - Add Match
-The admin can add a match.
-
-
-### Admin dashboard - Players
-All the team players displayed in here, the admin can click on player and edit his details.
-
-
-### Admin dashboard - Add Player
-The admin can add a player.
+View players in admin panel:
+<img width="1440" alt="Screen Shot 2021-04-04 at 2 47 58" src="https://user-images.githubusercontent.com/55081339/113494364-352aee80-94f0-11eb-8c01-060ab159653d.png">
 
 
